@@ -1,6 +1,6 @@
 # Backend Service 📡
 
-This is the backend service that calculates shipping costs based on weight, distance, and cargo type. Stores pricing data in MongoDB and optimize queries for performance. It is built using **Node.js**, **Express.js**,**Node:Test for testing**, and **Mongo**, with **Zod** for validation.
+This is the backend service that calculates shipping costs based on weight, volume, distance, and cargo type. Stores pricing data in MongoDB and optimize queries for performance. It is built using **Node.js**, **Express.js**,**Node:Test for testing**, and **Mongo**, with **Zod** for validation.
 
 ---
 
@@ -25,7 +25,7 @@ This is the backend service that calculates shipping costs based on weight, dist
 
 ### Clone the Repository
 ```sh
-unzip 
+clone https://github.com/codarbind/shipargo.git
 cd shipargo
 ```
 ---
@@ -56,6 +56,8 @@ npm run test
 ```
 
 ## API Spec File
+To make calls directly from VSCODE, download Rest Client extension by Huachao Mao
+
 ```sh
 .http
 ```
