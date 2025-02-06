@@ -25,7 +25,7 @@ This is the backend service that calculates shipping costs based on weight, volu
 
 ### Clone the Repository
 ```sh
-clone https://github.com/codarbind/shipargo.git
+git clone https://github.com/codarbind/shipargo.git
 cd shipargo
 ```
 ---
