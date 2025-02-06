@@ -1,0 +1,12 @@
+GET http://localhost:3223/health HTTP/1.1
+
+
+###
+POST http://localhost:3223/cargo/cost HTTP/1.1
+Content-Type: application/json
+
+{
+    "volume_ltr": 10,
+    "distance_km": 200,
+    "cargoType": "container"
+}
